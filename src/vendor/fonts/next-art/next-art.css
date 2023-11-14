@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Next Art";
+  font-style:  normal;
+  font-weight: regular;
+  src: url("./__regular/NEXT-ART_Regular.otf") format("opentype"),
+}
+
+@font-face {
+  font-family: "Next Art";
+  font-style:  normal;
+  font-weight: semibold;
+  src: url("./__semibold/NEXT-ART_SemiBold.otf") format("opentype"),
+}
+
+@font-face {
+  font-family: "Next Art";
+  font-style:  normal;
+  font-weight: bold;
+  src: url("./__bold/NEXT-ART_Bold.otf") format("opentype"),
+}

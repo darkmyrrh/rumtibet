@@ -1,0 +1,42 @@
+.promo {
+  margin: 0;
+  padding: 464px 0 0;
+  width: 100%;
+  background-image: url(../../images/backgroung.jpg);
+  background-size: 100%;
+  color: white;
+}
+
+.promo__title {
+  margin: 0 auto 0 370px;
+  font-family: "Next Art", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  max-width: 1080px;
+  letter-spacing: 1px;
+  line-height: 150%;
+}
+
+.promo__form {
+  margin: 41px 370px 0;
+  max-width: 1180px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr max-content;
+  column-gap: 24px;
+}
+.promo__form-input {
+  margin: 40px auto 0;
+  padding: 14px 0;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid var(--wl-primary-primary-300, #e1e3e4);
+}
+.promo__form-label {
+  margin: 8px auto 40px;
+  grid-row: 2;
+}
