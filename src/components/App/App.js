@@ -1,12 +1,13 @@
 import './App.css';
-import Promo from '../Promo/Promo';
 import Header from '../Header/Header';
+import Main from '../Main/Main';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />      
-      <Promo />
+      <Header />
+      <Main />
     </div>
   );
 }

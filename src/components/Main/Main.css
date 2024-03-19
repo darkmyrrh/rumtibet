@@ -1,0 +1,37 @@
+.main__title {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 83%;
+    color: #F2BE22;
+}
+
+.main__subtitle {
+    margin: 8px 0 40px auto;
+    padding: 0;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #18121E;
+}
+
+.main__paragraph {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #18121E;
+}
+
+.main__button {
+    margin: 40px auto 0;
+    padding: 16px 36px;
+    background-color: #1A3E3E;
+    color: #FDFDFD;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.012em;
+}
