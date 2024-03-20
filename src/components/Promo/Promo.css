@@ -1,26 +1,31 @@
 .promo {
   margin: -88px 0 0;
-  padding: 552px 0 82px;
-  width: 100%;
+  padding: 0;
+  height: 100vh;
   background-image: url(../../images/backgroung.jpg);
-  background-size: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .promo__title {
-  margin: 0 auto 0 370px;
+  margin: 0 auto;
   font-family: "Next Art", sans-serif;
   font-size: 50px;
   font-weight: bold;
-  max-width: 1180px;
+  min-width: 1180px;
   letter-spacing: 1px;
   line-height: 150%;
+  text-align: left;
 }
 
 .promo__form {
-  margin: 41px auto 0 370px;
+  margin: 41px auto 86px;
   padding: 40px 42px;
-  max-width: 1095px;
+  max-width: 1180px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(3px);
@@ -63,4 +68,12 @@
   border-radius: 4px;
   border: none;
   background-color: #FDFDFD;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.promo__form-submit:hover {
+  background-color: #1A3E3E;
+  color: #FDFDFD;
 }

@@ -48,4 +48,14 @@
   font-weight: 600;
   line-height: 125%;
   letter-spacing: 0.192px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  transition: border 0.3s ease;
+}
+
+.header__button:hover {
+  background-color: #FDFDFD;
+  color: #1A3E3E;
+  border: 1px solid #1A3E3E;
 }

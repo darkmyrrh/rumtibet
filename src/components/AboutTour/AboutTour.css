@@ -1,8 +1,15 @@
 .about-tour {
-    margin: 96px auto 100px;
+    margin: 98px auto 100px;
     max-width: 1180px;
     display: grid;
-    
+    grid-template-columns: auto max-content;
+    grid-template-rows: min-content;
+}
+
+.about-tour__video-container {
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
 .about-tour__video {
@@ -15,20 +22,33 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
 .about-tour__video_front {
-    background-image: url('../../images/tour-video-front.png');    
+    background-image: url('../../images/tour-video-front.png');
+    position: absolute;
+    top: 126px;
+    left: 130px;
+    z-index: 1;
 }
+
 .about-tour__video_back {
-    background-image: url('../../images/tour-video-back.png');    
+    background-image: url('../../images/tour-video-back.png');
 }
+
 .about-tour__play-button {
     width: 50px;
     height: 50px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.6);
     border: none;
     border-radius: 50%;
     background-image: url('../../images/video-icon.svg');
     background-repeat: no-repeat;
     background-size: 22px 22px;
     background-position: center;
+}
+
+.about-tour__info {
+    margin: 64px 0 64px 120px;
+    padding: 0;
+    max-width: 580px;
 }
