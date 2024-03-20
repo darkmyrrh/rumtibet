@@ -2,6 +2,7 @@ import './Main.css';
 import Promo from '../Promo/Promo';
 import AboutTour from '../AboutTour/AboutTour';
 import Offer from '../Offer/Offer';
+import Destinations from '../Destinations/Destinations';
 
 export default function Main() {
     return (
@@ -9,6 +10,7 @@ export default function Main() {
             <Promo />
             <AboutTour />
             <Offer />
+            <Destinations />
         </main>
     );
 }

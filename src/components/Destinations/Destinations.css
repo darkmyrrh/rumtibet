@@ -1,0 +1,47 @@
+.destinations {
+    margin: 80px auto 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.destinations__cards {
+    margin: 60px auto 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.desinations__card {
+    margin: 0 auto;
+    padding: 0;    
+    position: relative;
+}
+
+.destinations__card-image {
+    width: 380px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+.destinations__rating {
+    margin: 0;
+    padding: 4px 8px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.destinations__rating-score {
+    margin: 0;
+    padding: 0;
+    color: #1A3E3E;
+    font-size: 14px;
+    line-height: 129%;
+    font-weight: 900;
+}
