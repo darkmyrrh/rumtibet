@@ -12,9 +12,9 @@ export default function Destinations() {
             <ul className='destinations__cards'>
                 <li>
                     <article className='desinations__card'>
-                        <img src={card1} alt="Озеро возле гор" className='destinations__card-image' />
+                        <img src={card1} alt='Озеро возле гор' className='destinations__card-image' />
                         <figure className='destinations__rating'>
-                            <img src={star} alt="Рейтинг" className='destinations__rating-image' />
+                            <img src={star} alt='Рейтинг' className='destinations__rating-image' />
                             <figcaption className='destinations__rating-score'>4.9</figcaption>
                         </figure>
                         <div className='destinations__info'>
@@ -26,9 +26,9 @@ export default function Destinations() {
                 </li>
                 <li>
                     <article className='desinations__card'>
-                        <img src={card2} alt="Ночь в горах" className='destinations__card-image' />
+                        <img src={card2} alt='Ночь в горах' className='destinations__card-image' />
                         <figure className='destinations__rating'>
-                            <img src={star} alt="Рейтинг" className='destinations__rating-image' />
+                            <img src={star} alt='Рейтинг' className='destinations__rating-image' />
                             <figcaption className='destinations__rating-score'>4.5</figcaption>
                         </figure>
                         <div className='destinations__info'>
@@ -40,9 +40,9 @@ export default function Destinations() {
                 </li>
                 <li>
                     <article className='desinations__card'>
-                        <img src={card3} alt="Йога в горах" className='destinations__card-image' />
+                        <img src={card3} alt='Йога в горах' className='destinations__card-image' />
                         <figure className='destinations__rating'>
-                            <img src={star} alt="Рейтинг" className='destinations__rating-image' />
+                            <img src={star} alt='Рейтинг' className='destinations__rating-image' />
                             <figcaption className='destinations__rating-score'>5.0</figcaption>
                         </figure>
                         <div className='destinations__info'>
@@ -53,7 +53,7 @@ export default function Destinations() {
                     </article>
                 </li>
             </ul>
-            <button type='button' className='main__button'>Рейтинг направлений</button>
+            <button type='button' aria-label='Рейтинг' className='main__button'>Рейтинг направлений</button>
         </section>
     );
 }
