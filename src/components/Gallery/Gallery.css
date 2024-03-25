@@ -1,0 +1,30 @@
+.gallery {
+    margin: 80px auto 198px;
+    padding: 0;
+    text-align: center;
+}
+
+.gallery__container {
+    margin: 0 auto 10px;
+    padding: 0;
+    max-width: 1180px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery__image {
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.gallery__image:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.gallery__image_big {
+    width: 580px;
+}
