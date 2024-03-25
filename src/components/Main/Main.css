@@ -42,5 +42,5 @@
 .main__button:hover {
     background-color: #FDFDFD;
     color: #1A3E3E;
-    border: 1px solid #1A3E3E;
+    outline: 1px solid #1A3E3E;
 }
