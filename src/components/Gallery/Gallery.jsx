@@ -12,23 +12,29 @@ export default function Gallery() {
             <h2 className='main__title'>фото-отчет</h2>
             <h3 className='main__subtitle'>Делимся впечатлениями</h3>
             <ul className='gallery__container'>
-                <li>
+                <li className='gallery__image-container'>
                     <img src={galleryImg1} alt="" className='gallery__image gallery__image_big' />
+                    <button type='button' aria-label='Увеличить' className='gallery__zoom-button' />
                 </li>
-                <li>
+                <li className='gallery__image-container'>
                     <img src={galleryImg2} alt="" className='gallery__image' />
+                    <button type='button' aria-label='Увеличить' className='gallery__zoom-button' />
                 </li>
-                <li>
+                <li className='gallery__image-container'>
                     <img src={galleryImg3} alt="" className='gallery__image' />
+                    <button type='button' aria-label='Увеличить' className='gallery__zoom-button' />
                 </li>
-                <li>
+                <li className='gallery__image-container'>
                     <img src={galleryImg4} alt="" className='gallery__image' />
+                    <button type='button' aria-label='Увеличить' className='gallery__zoom-button' />
                 </li>
-                <li>
+                <li className='gallery__image-container'>
                     <img src={galleryImg5} alt="" className='gallery__image gallery__image_big' />
+                    <button type='button' aria-label='Увеличить' className='gallery__zoom-button' />
                 </li>
-                <li>
+                <li className='gallery__image-container'>
                     <img src={galleryImg6} alt="" className='gallery__image' />
+                    <button type='button' aria-label='Увеличить' className='gallery__zoom-button' />
                 </li>
             </ul>
             <button type='button' aria-label='Pinterest' className='main__button'>Наш pinterest</button>
