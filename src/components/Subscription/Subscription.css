@@ -1,0 +1,86 @@
+.subscription {
+    margin: -98px auto 0;
+    padding: 40px 100px;
+    max-width: 1180px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: left;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: auto;
+    column-gap: 64px;
+}
+
+.subscription__title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 111%;
+    box-sizing: border-box;
+}
+
+.subscription__subtitle {
+    margin-bottom: 26px;
+    font-size: 26px;
+    max-width: 380px;
+    grid-column: 1;
+    box-sizing: border-box;
+}
+
+.subscription__form {
+    margin: 0;
+    padding: 0;
+    max-width: 536px;
+    grid-row: 1/ span 2;
+    grid-column: 2;
+}
+.subscription__form-label {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 125%;
+    display: block;
+}
+.subscription__form-input {
+    margin: 8px 16px 8px 0;
+    padding: 12px 16px;
+    min-width: 280px;
+    background-color: #F3F5F4;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 143%;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+.subscription__form-input::-webkit-input-placeholder {
+    color: #18121E;
+    opacity: 1;
+}
+
+.subscription__form-input::-moz-placeholder {
+    color: #18121E;
+    opacity: 1;
+}
+
+.subscription__form-submit {
+    margin: 0;
+    padding: 12px 24px;
+}
+.subscription__form-text {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 128%;
+    font-weight: 600;
+}
+.subscription__form-link {
+    color: #18121E;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.subscription__form-link:hover {
+    color: #F2BE22;
+}
