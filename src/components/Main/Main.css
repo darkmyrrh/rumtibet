@@ -42,6 +42,7 @@
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .main__button:hover {
