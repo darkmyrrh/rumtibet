@@ -1,6 +1,17 @@
 import './Promo.css';
+import { useState } from 'react';
 
 export default function Promo() {
+  const [onFocus, setOnFocus] = useState(false);
+
+  function handleFocus() {
+    setOnFocus(true)
+  }
+
+  function hangleBlur() {
+    setOnFocus(false)
+  }
+
   return (
     <section className='promo'>
       <h1 className='promo__title'>
@@ -10,7 +21,7 @@ export default function Promo() {
         <select
           name='location'
           id='location'
-          className='promo__form-input'
+          className='promo__form-input promo__form-input_type_select'
         >
           <option value='Локация для тура' disabled selected>Локация для тура</option>
           <option value='2'>2</option>
@@ -20,16 +31,18 @@ export default function Promo() {
           выберите из списка
         </label>
         <input
-          type='date'
           id='date'
           name='date'
+          type={onFocus ? 'date' : 'text'}
           placeholder='Дата похода'
-          className='promo__form-input'
+          onFocus={handleFocus}
+          onBlur={hangleBlur}
+          className='promo__form-input promo__form-input_type_date'
         />
         <label htmlFor='date' className='promo__form-label'>
           укажите диапазон
         </label>
-        <select id='number' name='number' className='promo__form-input'>
+        <select id='number' name='number' className='promo__form-input promo__form-input_type_select'>
           <option value='0' placeholder='Участники' disabled selected>
             Участники
           </option>
@@ -46,7 +59,7 @@ export default function Promo() {
           минимум 4 человека
         </label>
         <button type='submit' aria-label='Найти программу' className='promo__form-submit'>Найти программу</button>
-      </form>
+      </form>      
     </section>
   );
 }
