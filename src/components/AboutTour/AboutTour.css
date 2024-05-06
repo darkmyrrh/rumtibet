@@ -1,6 +1,6 @@
 .about-tour {
     margin: 98px auto 100px;
-    max-width: 1180px;
+    width: 1180px;
     display: grid;
     grid-template-columns: auto max-content;
     grid-template-rows: min-content;
@@ -51,4 +51,25 @@
     margin: 64px 0 64px 120px;
     padding: 0;
     max-width: 580px;
+}
+
+@media all and (max-width: 420px) {
+    .about-tour {
+        margin: 50px auto;
+        width: 92%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-self: center;
+    }
+
+    .about-tour__video_back {
+        display: none;
+    }
+
+    .about-tour__info {
+        margin: 0 auto;
+        width: 100%;
+        align-self: center;
+    }
+
 }

@@ -6,11 +6,25 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .header__logo {
   margin: 0;
   padding: 0;
   width: 137px;
   height: 72px;
+}
+
+.header__burger-menu {
+  margin: 7px 0 7px auto;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(../../images/burger-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 21px 18px;
+  border: none;
+  min-width: 30px;
+  display: none;
 }
 .header__nav {
   margin: 23.5px 0 0 212px;
@@ -56,4 +70,25 @@
   background-color: #FDFDFD;
   color: #1A3E3E;
   outline: 1px solid #1A3E3E;
+}
+
+@media all and (max-width: 420px) {
+  .header {
+    margin-top: 20px;
+    width: 92%;
+  }
+  .header__logo {
+    width: 84px;
+    height: 44px;
+  }
+
+  .header__nav {
+    display: none;
+  }
+  .header__button {
+    display: none;
+  }
+  .header__burger-menu {
+    display: initial;
+  }
 }

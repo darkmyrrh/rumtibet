@@ -4,7 +4,8 @@ import logo from '../../images/logo.svg'
 export default function Header() {
     return (
         <header className='header'>
-            <img src={logo} alt='РумТибет' />
+            <img src={logo} alt='РумТибет' className='header__logo' />
+            <button type='button' className='header__burger-menu' aria-label='Меню' />
             <nav>
                 <ul className='header__nav'>
                     <li><a href='#' className='header__link'>Главная</a></li>

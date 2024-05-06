@@ -1,16 +1,6 @@
 import './Promo.css';
-import { useState } from 'react';
 
 export default function Promo() {
-  const [onFocus, setOnFocus] = useState(false);
-
-  function handleFocus() {
-    setOnFocus(true)
-  }
-
-  function hangleBlur() {
-    setOnFocus(false)
-  }
 
   return (
     <section className='promo'>
@@ -33,10 +23,8 @@ export default function Promo() {
         <input
           id='date'
           name='date'
-          type={onFocus ? 'date' : 'text'}
+          type='text'
           placeholder='Дата похода'
-          onFocus={handleFocus}
-          onBlur={hangleBlur}
           className='promo__form-input promo__form-input_type_date'
         />
         <label htmlFor='date' className='promo__form-label'>
@@ -59,7 +47,8 @@ export default function Promo() {
           минимум 4 человека
         </label>
         <button type='submit' aria-label='Найти программу' className='promo__form-submit'>Найти программу</button>
-      </form>      
+      </form>
+      <button type='submit' aria-label='Найти программу' className='promo__form-submit promo__form-submit_mobile'>Найти программу</button>
     </section>
   );
 }

@@ -15,7 +15,7 @@
   margin: 0 auto;
   font-family: "Next Art", sans-serif;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 700;
   min-width: 1180px;
   letter-spacing: 1px;
   line-height: 150%;
@@ -31,7 +31,7 @@
   backdrop-filter: blur(3px);
   display: grid;
   grid-template-columns: repeat(3, 1fr) max-content;
-  grid-template-rows: 32,2% min-content;
+  grid-template-rows: 32, 2% min-content;
   column-gap: 24px;
   box-sizing: border-box;
 }
@@ -49,7 +49,7 @@
   line-height: 150%;
   cursor: pointer;
   transition: opacity 0.3s ease;
-  
+
 }
 
 .promo__form-input::-moz-placeholder {
@@ -83,7 +83,7 @@
   position: relative;
 }
 
-.promo__form-input_type_date::before {
+/* .promo__form-input_type_date::before {
   color: transparent;
   background: none;
   display: block;
@@ -91,23 +91,15 @@
   position: absolute;
   top: 17px;
   right: 17px;
-}
+} */
 
 .promo__form-input:hover {
   opacity: 0.7;
 }
- 
-/* .promo__form-input_type_date::before{  
-  content: attr(data-placeholder);
-}
-.promo__form-input_type_date:focus::before
-.promo__form-input_type_date:valid::before {  
-  display: none;
-} */
+
 ::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
-
 
 .promo__form-input_type_date:focus {
   outline: none;
@@ -154,4 +146,36 @@
 .promo__form-submit:hover {
   background-color: #1A3E3E;
   color: #FDFDFD;
+}
+
+.promo__form-submit_mobile {
+  display: none;
+}
+
+@media all and (max-width: 420px) {
+  .promo {
+    
+    background-size: auto 100%;
+  }
+
+  .promo__form {
+    display: none;
+  }
+
+  .promo__title {
+    margin-left: 16px;
+    margin-right: 29px;
+    min-width: 345px;
+    font-size: 28px;
+    letter-spacing: 0;
+  }
+
+  .promo__form-submit {
+    margin: 32px auto 50px 16px;
+  }
+
+  .promo__form-submit_mobile {
+    display: initial;
+  }
+
 }
