@@ -14,7 +14,7 @@ export default function Offer() {
                 <div className='offer__info'>
                     <h2 className='main__title'>наше предложение</h2>
                     <h3 className='main__subtitle'>Лучшие программы для тебя</h3>
-                    <p className='main__paragraph'>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.</p>
+                    <p className='main__paragraph offer__paragraph'>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.</p>
                     <ul className='offer__items'>
                         <li><article className='offer__item'>
                             <img src={guide} alt='Опытный гид' className='offer__item-image' />

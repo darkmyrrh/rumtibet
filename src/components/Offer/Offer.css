@@ -7,17 +7,18 @@
 
 .offer__container {
     margin: 0 auto;
-    max-width: 1180px;    
+    max-width: 1180px;
     display: flex;
-   
     column-gap: 90px;
     align-items: center;
 }
+
 .offer__info {
     margin: 0;
     padding: 0;
     max-width: 580px;
 }
+
 .offer__items {
     margin: 40px auto 0;
     padding: 0;
@@ -26,6 +27,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+    text-align: left;
 }
 
 .offer__item {
@@ -89,4 +91,29 @@
 
 .offer__image_right {
     border-radius: 50px 0;
+}
+
+@media all and (max-width: 420px) {
+    .offer {
+        padding: 50px 0;
+    }
+
+    .offer__container {
+        width: 92%;
+        text-align: center;
+    }
+    .offer__paragraph {
+        margin-top: 32px;
+    }
+    .offer__items {
+        margin-top: 32px;
+        margin-bottom: 8px;
+        row-gap: 32px;
+    }
+    .offer__item {
+       align-items: start;
+    }
+    .offer__images {
+        display: none;
+    }
 }
