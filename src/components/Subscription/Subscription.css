@@ -3,7 +3,7 @@
     padding: 40px 100px;
     max-width: 1180px;
     background-color: #FDFDFD;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
     box-sizing: border-box;
     text-align: left;
@@ -25,6 +25,7 @@
 .subscription__subtitle {
     margin-bottom: 26px;
     font-size: 26px;
+    line-height: 120%;
     max-width: 380px;
     grid-column: 1;
     box-sizing: border-box;
@@ -91,5 +92,32 @@
 @media all and (max-width: 420px) {
     .subscription {
         margin: 50px auto;
+        padding: 24px;
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscription__title {
+        margin: 0;
+        font-size: 16px;
+        line-height: 125%;
+    }
+
+    .subscription__subtitle {
+        margin: 8px 0 16px;
+        font-size: 24px;
+        max-width: 312px;
+    }
+
+    .subscription__form {
+        max-width: 310px;
+    }
+    .subscription__form-input {
+        margin-bottom: 16px;
+    }
+    .subscription__form-submit {
+        margin-bottom: 24px;
+        max-width: 310px;
     }
 }

@@ -167,3 +167,9 @@
 .footer__copyright-link:hover {
     color: #F2BE22;
 }
+
+@media all and (max-width: 420px) {
+    .footer {
+        margin: 0 auto;
+    }
+}
