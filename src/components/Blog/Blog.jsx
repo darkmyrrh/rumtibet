@@ -4,12 +4,12 @@ import blogImage2 from '../../images/blog-image-2.jpg';
 import blogImage3 from '../../images/blog-image-3.jpg';
 import blogImage4 from '../../images/blog-image-4.jpg';
 
-export default function Blog () {
+export default function Blog() {
     return (
         <section className='blog'>
-            <h2 className='main__title'>делимся впечатлениями</h2>
-            <h3 className='main__subtitle'>Блог о путешествиях</h3>
             <div className='blog__container'>
+                <h2 className='main__title'>делимся впечатлениями</h2>
+                <h3 className='main__subtitle'>Блог о путешествиях</h3>
                 <ul className='blog__articles'>
                     <li>
                         <article className='blog__article'>
