@@ -56,3 +56,23 @@
 .gallery__image-container:hover .gallery__zoom-button {
     z-index: 4;
 }
+
+@media all and (max-width: 420px) {
+    .gallery {
+        margin: 50px auto;
+        width: 92%;
+    }
+    .gallery__container {
+        margin: 32px auto 8px;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .gallery__image_big {
+        width: 280px;
+    }
+
+    .gallery__zoom-button {
+        display: none;
+    }
+}

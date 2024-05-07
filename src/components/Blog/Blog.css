@@ -111,7 +111,7 @@
         width: 92%;
     }
     .blog__articles {
-        margin: 32px auto;
+        margin: 32px auto 8px;
         flex-wrap: nowrap;
         justify-content: flex-start;
         column-gap: 24px;
