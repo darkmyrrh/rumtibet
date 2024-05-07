@@ -38,6 +38,12 @@
     border-radius: 4px 0 0 4px;
 }
 
+.destinations__rating-image {
+    margin: 0;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+}
 .destinations__rating-score {
     margin: 0;
     padding: 0;
@@ -94,4 +100,44 @@
     font-weight: 700;
     border-radius: 4px;
     grid-row: span 2;
+}
+
+@media all and (max-width: 420px) {
+    .destinations {
+        margin: 50px auto;
+        width: 92%;
+    }
+
+    .destinations__cards {
+        margin: 32px auto 8px;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .destinations__card-image {
+        width: 285px;
+        height: 400px;
+    }
+
+    .destinations__info {
+        padding: 20px 24px;
+        /* display: flex; */
+    }
+
+    .destinations__title {
+        font-size: 18px;
+    }
+    .destinations__description {
+        display: none;
+    }
+    .destinations__price {
+        max-width: 67px;
+        padding: 6px 12px;
+        font-size: 16px;
+        line-height: 112.5%;
+        grid-row: initial;
+    }
+    .destinations__rating {
+        top: 36.8px;
+    }
 }
