@@ -46,6 +46,7 @@
     background-repeat: no-repeat;
     background-size: 22px 22px;
     background-position: center;
+    cursor: pointer;
 }
 
 .about-tour__info {

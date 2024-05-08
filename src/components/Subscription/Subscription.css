@@ -38,6 +38,7 @@
     grid-row: 1/ span 2;
     grid-column: 2;
 }
+
 .subscription__form-label {
     margin: 0;
     padding: 0;
@@ -46,6 +47,7 @@
     line-height: 125%;
     display: block;
 }
+
 .subscription__form-input {
     margin: 8px 16px 8px 0;
     padding: 12px 16px;
@@ -73,6 +75,7 @@
     margin: 0;
     padding: 12px 24px;
 }
+
 .subscription__form-text {
     margin: 0;
     padding: 0;
@@ -80,11 +83,13 @@
     line-height: 128%;
     font-weight: 600;
 }
+
 .subscription__form-link {
     color: #18121E;
     cursor: pointer;
     transition: color 0.3s ease;
 }
+
 .subscription__form-link:hover {
     color: #F2BE22;
 }
@@ -105,17 +110,20 @@
     }
 
     .subscription__subtitle {
-        margin: 8px 0 16px;
+        margin: 8px 0 18px;
         font-size: 24px;
-        max-width: 312px;
+        max-width: 310px;
     }
 
     .subscription__form {
         max-width: 310px;
     }
+
     .subscription__form-input {
         margin-bottom: 16px;
+        width: 100%;
     }
+
     .subscription__form-submit {
         margin-bottom: 24px;
         max-width: 310px;
