@@ -6,8 +6,8 @@ export default function Header() {
         <header className='header'>
             <img src={logo} alt='РумТибет' className='header__logo' />
             <button type='button' className='header__burger-menu' aria-label='Меню' />
-            <nav>
-                <ul className='header__nav'>
+            <nav className='header__nav'>
+                <ul className='header__links'>
                     <li><a href='#' className='header__link'>Главная</a></li>
                     <li><a href='#' className='header__link'>Про гида</a></li>
                     <li><a href='#' className='header__link'>Программа тура</a></li>
@@ -15,8 +15,9 @@ export default function Header() {
                     <li><a href='#' className='header__link'>Блог</a></li>
                     <li><a href='#' className='header__link'>Контакты</a></li>
                 </ul>
+                <button type='button' aria-label='Консультация' className='header__button'>Консультация</button>
             </nav>
-            <button type='button' aria-label='Консультация' className='header__button'>Консультация</button>
+            
         </header>
     )
 }

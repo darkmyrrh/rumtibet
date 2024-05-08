@@ -51,6 +51,7 @@
     width: 230px;
     height: 280px;
     object-fit: cover;
+    object-position: center;
     border-radius: 6px;
     grid-column: 1;
     grid-row: span 3;

@@ -4,8 +4,7 @@ export default function Subscription() {
     return (
         <section className='subscription'>
             <h2 className='main__title subscription__title'>актуально</h2>
-            <h3 className='main__subtitle subscription__subtitle'>Получайте полезные 
-            {/* рассылки о путешествиях */}
+            <h3 className='main__subtitle subscription__subtitle'>Получайте полезные рассылки о путешествиях
             </h3>
             <form className='subscription__form'>
                 <label htmlFor='email' className='subscription__form-label'>Введите e-mail адрес</label>

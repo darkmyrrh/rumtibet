@@ -13,9 +13,9 @@ export default function Promo() {
           id='location'
           className='promo__form-input promo__form-input_type_select'
         >
-          <option value='Локация для тура' disabled selected>Локация для тура</option>
-          <option value='2'>2</option>
-          <option value='3'>3</option>
+          <option className='promo__form-option' value='Локация для тура' disabled selected>Локация для тура</option>
+          <option className='promo__form-option' value='2'>2</option>
+          <option className='promo__form-option' value='3'>3</option>
         </select>
         <label htmlFor='location' className='promo__form-label'>
           выберите из списка
@@ -31,17 +31,17 @@ export default function Promo() {
           укажите диапазон
         </label>
         <select id='number' name='number' className='promo__form-input promo__form-input_type_select'>
-          <option value='0' placeholder='Участники' disabled selected>
+          <option className='promo__form-option' value='0' placeholder='Участники' disabled selected>
             Участники
           </option>
-          <option value='4'>4</option>
-          <option value='5'>5</option>
-          <option value='6'>6</option>
-          <option value='7'>7</option>
-          <option value='8'>8</option>
-          <option value='9'>9</option>
-          <option value='10'>10</option>
-          <option value='Больше 10>'>Больше 10</option>
+          <option className='promo__form-option' value='4'>4</option>
+          <option className='promo__form-option' value='5'>5</option>
+          <option className='promo__form-option' value='6'>6</option>
+          <option className='promo__form-option' value='7'>7</option>
+          <option className='promo__form-option' value='8'>8</option>
+          <option className='promo__form-option' value='9'>9</option>
+          <option className='promo__form-option' value='10'>10</option>
+          <option className='promo__form-option' value='Больше 10>'>Больше 10</option>
         </select>
         <label htmlFor='number' className='promo__form-label'>
           минимум 4 человека
