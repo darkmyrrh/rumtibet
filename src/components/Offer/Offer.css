@@ -93,7 +93,28 @@
     border-radius: 50px 0;
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 1280px) {
+    .offer__container {
+        max-width: 90%;
+        column-gap: 70px;
+    }
+}
+
+@media all and (max-width: 1086px) {
+    .offer__container {
+        column-gap: 30px;
+    }
+    .offer__images {
+        max-width: 410px;
+    }
+
+    .offer__image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media all and (max-width: 900px) {
     .offer {
         padding: 50px 0;
     }
@@ -101,6 +122,8 @@
     .offer__container {
         width: 92%;
         text-align: center;
+        justify-self: center;
+        flex-direction: column;
     }
     .offer__paragraph {
         margin-top: 32px;
