@@ -107,21 +107,23 @@
     .blog__articles {
         width: 90%;
     }
+
     .blog__article {
         max-width: 520px;
         gap: 20px;
     }
+
     .blog__article-image {
         width: 200px;
         height: 244px;
-
     }
+
     .blog__article-title {
         font-size: 22px;
     }
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 573px) {
     .blog {
         padding: 50px 0;
     }
@@ -136,6 +138,7 @@
         flex-wrap: nowrap;
         justify-content: flex-start;
         column-gap: 24px;
+        overflow: hidden;
     }
 
     .blog__article {
