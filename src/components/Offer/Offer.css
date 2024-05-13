@@ -104,6 +104,7 @@
     .offer__container {
         column-gap: 30px;
     }
+
     .offer__images {
         max-width: 410px;
     }
@@ -125,17 +126,21 @@
         justify-self: center;
         flex-direction: column;
     }
+
     .offer__paragraph {
         margin-top: 32px;
     }
+
     .offer__items {
         margin-top: 32px;
         margin-bottom: 8px;
         row-gap: 32px;
     }
+
     .offer__item {
-       align-items: start;
+        align-items: start;
     }
+
     .offer__images {
         display: none;
     }

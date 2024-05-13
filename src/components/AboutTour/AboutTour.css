@@ -61,6 +61,7 @@
         width: 90%;
 
     }
+
     .about-tour__info {
         width: 50%;
     }
@@ -80,10 +81,12 @@
     .about-tour__info {
         margin-top: 0;
     }
+
     .about-tour__video_front {
         left: 80px;
     }
 }
+
 @media all and (max-width: 850px) {
     .about-tour {
         margin: 50px auto;
@@ -101,9 +104,11 @@
         width: 358px;
         height: 416px;
     }
+
     .about-tour__video_front {
         position: initial;
     }
+
     .about-tour__video_back {
         display: none;
     }
@@ -115,4 +120,3 @@
     }
 
 }
-
