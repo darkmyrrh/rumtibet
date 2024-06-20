@@ -19,8 +19,10 @@ export default function Destinations() {
                         </figure>
                         <div className='destinations__info'>
                             <h3 className='destinations__title'>Озеро возле гор</h3>
-                            <p className='destinations__description'>романтическое приключение</p>
+                            <p className='destinations__subtitle'>романтическое приключение</p>
                             <p className='destinations__price'>480 $</p>
+                            <p className='destinations__description'>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                            <button type='button' className='main__button destinations__button'>Программа тура</button>
                         </div>
                     </article>
                 </li>
@@ -33,8 +35,10 @@ export default function Destinations() {
                         </figure>
                         <div className='destinations__info'>
                             <h3 className='destinations__title'>Ночь в горах</h3>
-                            <p className='destinations__description'>в компании друзей</p>
+                            <p className='destinations__subtitle'>в компании друзей</p>
                             <p className='destinations__price'>500 $</p>
+                            <p className='destinations__description'>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                            <button type='button' className='main__button destinations__button'>Программа тура</button>
                         </div>
                     </article>
                 </li>
@@ -47,8 +51,10 @@ export default function Destinations() {
                         </figure>
                         <div className='destinations__info'>
                             <h3 className='destinations__title'>Йога в горах</h3>
-                            <p className='destinations__description'>для тех, кто забоится о себе</p>
+                            <p className='destinations__subtitle'>для тех, кто забоится о себе</p>
                             <p className='destinations__price'>230 $</p>
+                            <p className='destinations__description'>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                            <button type='button' className='main__button destinations__button'>Программа тура</button>
                         </div>
                     </article>
                 </li>
