@@ -142,7 +142,6 @@
 
 @media all and (max-width: 780px) {
     .subscription {
-        margin: 50px auto;
         padding: 24px;
         display: flex;
         flex-direction: column;
@@ -168,6 +167,9 @@
 }
 
 @media all and (max-width: 420px) {
+    .subscription {
+        margin: 0 auto 50px;
+    }
     .subscription__form-input {
         margin-bottom: 16px;
         width: 100%;

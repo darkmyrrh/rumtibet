@@ -50,6 +50,7 @@
   line-height: 150%;
   cursor: pointer;
   transition: opacity 0.3s ease;
+  cursor: pointer;
 
 }
 
@@ -78,13 +79,11 @@
   background-image: url(../../images/formkit_date.svg);
   background-repeat: no-repeat;
   background-position: top 17px right 17px;
-  /* appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none; */
 }
 
 .promo__form-option {
   color: #1A3E3E;
+  cursor: pointer;
 }
 
 .promo__form-input:hover {
