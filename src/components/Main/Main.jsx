@@ -6,8 +6,9 @@ import Destinations from '../Destinations/Destinations';
 import Blog from '../Blog/Blog';
 import Gallery from '../Gallery/Gallery';
 import Subscription from '../Subscription/Subscription';
+import ImagePopup from '../ImagePopup/ImagePopup';
 
-export default function Main() {
+export default function Main({ onImageClick, onClose, images, image, isOpen }) {
     return (
         <main className='main'>
             <Promo />
@@ -15,7 +16,13 @@ export default function Main() {
             <Offer />
             <Destinations />
             <Blog />
-            <Gallery />
+            <Gallery 
+            images={images}
+            image={image}
+            onImageClick={onImageClick} />
+            <ImagePopup isOpen={isOpen}
+            image={image}
+            onClose={onClose}/>
             <Subscription />
         </main>
     );

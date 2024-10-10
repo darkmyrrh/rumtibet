@@ -8,7 +8,7 @@
     top: -100%;
     left: 0;
     text-align: right;
-    transition: top 0.2s ease-in-out;
+    transition: top 0.3s ease-in-out;
     z-index: 700;
 }
 

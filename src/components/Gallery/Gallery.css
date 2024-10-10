@@ -32,7 +32,7 @@
 }
 
 
-.gallery__image_big {
+.gallery__image-container:nth-child(4n+1) .gallery__image{
     width: 580px;
 }
 
@@ -68,7 +68,7 @@
         max-width: 880px;
     }
 
-    .gallery__image_big {
+    .gallery__image-container:nth-child(4n+1) .gallery__image {
         width: 280px;
     }
 }
